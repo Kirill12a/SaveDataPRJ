@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         NameTF.text = defualts.string(forKey: KeyDefualts.keyName)
         SurnameTF.text = defualts.string(forKey: KeyDefualts.keySurname)
     }
-    
         @IBAction func PushDataDB(_ sender: Any) {
             var name = NameTF.text!
             var surname = SurnameTF.text!
@@ -31,7 +30,6 @@ class ViewController: UIViewController {
                 defualts.set(surname, forKey: KeyDefualts.keySurname)
             }
     }
-    
     //Убрать клаву
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
           view.endEditing(true)
