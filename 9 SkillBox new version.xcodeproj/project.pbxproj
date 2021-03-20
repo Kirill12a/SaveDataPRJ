@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190A1562455C9749D37879BD /* Pods_9_SkillBox_new_version.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CB26DF901D53F46A938D63 /* Pods_9_SkillBox_new_version.framework */; };
 		D257490526066D2B00A07FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257490426066D2B00A07FBE /* AppDelegate.swift */; };
 		D257490726066D2B00A07FBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257490626066D2B00A07FBE /* SceneDelegate.swift */; };
 		D257490926066D2B00A07FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257490826066D2B00A07FBE /* ViewController.swift */; };
@@ -14,9 +15,13 @@
 		D257490F26066D2B00A07FBE /* __SkillBox_new_version.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D257490D26066D2B00A07FBE /* __SkillBox_new_version.xcdatamodeld */; };
 		D257491126066D2E00A07FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D257491026066D2E00A07FBE /* Assets.xcassets */; };
 		D257491426066D2E00A07FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D257491226066D2E00A07FBE /* LaunchScreen.storyboard */; };
+		D2574926260693D400A07FBE /* KeyDefualts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2574925260693D400A07FBE /* KeyDefualts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045B62F83AABF7D416BF6BA3 /* Pods-9 SkillBox new version.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9 SkillBox new version.debug.xcconfig"; path = "Target Support Files/Pods-9 SkillBox new version/Pods-9 SkillBox new version.debug.xcconfig"; sourceTree = "<group>"; };
+		21CB26DF901D53F46A938D63 /* Pods_9_SkillBox_new_version.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_9_SkillBox_new_version.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF5B8A132263779ABBFFB19 /* Pods-9 SkillBox new version.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-9 SkillBox new version.release.xcconfig"; path = "Target Support Files/Pods-9 SkillBox new version/Pods-9 SkillBox new version.release.xcconfig"; sourceTree = "<group>"; };
 		D257490126066D2B00A07FBE /* 9 SkillBox new version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "9 SkillBox new version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D257490426066D2B00A07FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D257490626066D2B00A07FBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		D257491026066D2E00A07FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D257491326066D2E00A07FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D257491526066D2E00A07FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2574925260693D400A07FBE /* KeyDefualts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDefualts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190A1562455C9749D37879BD /* Pods_9_SkillBox_new_version.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90F913653A0E59122F0F6509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				045B62F83AABF7D416BF6BA3 /* Pods-9 SkillBox new version.debug.xcconfig */,
+				CEF5B8A132263779ABBFFB19 /* Pods-9 SkillBox new version.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D25748F826066D2B00A07FBE = {
 			isa = PBXGroup;
 			children = (
 				D257490326066D2B00A07FBE /* 9 SkillBox new version */,
 				D257490226066D2B00A07FBE /* Products */,
+				90F913653A0E59122F0F6509 /* Pods */,
+				E38F464260722C40031B3D1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +78,9 @@
 			children = (
 				D257490426066D2B00A07FBE /* AppDelegate.swift */,
 				D257490626066D2B00A07FBE /* SceneDelegate.swift */,
+				D25749232606934A00A07FBE /* 1 */,
 				D257490826066D2B00A07FBE /* ViewController.swift */,
+				D2574925260693D400A07FBE /* KeyDefualts.swift */,
 				D257490A26066D2B00A07FBE /* Main.storyboard */,
 				D257491026066D2E00A07FBE /* Assets.xcassets */,
 				D257491226066D2E00A07FBE /* LaunchScreen.storyboard */,
@@ -70,6 +90,21 @@
 			path = "9 SkillBox new version";
 			sourceTree = "<group>";
 		};
+		D25749232606934A00A07FBE /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		E38F464260722C40031B3D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21CB26DF901D53F46A938D63 /* Pods_9_SkillBox_new_version.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D257491826066D2E00A07FBE /* Build configuration list for PBXNativeTarget "9 SkillBox new version" */;
 			buildPhases = (
+				CC8DEC9FDDC57ABBC84DCAF7 /* [CP] Check Pods Manifest.lock */,
 				D25748FD26066D2B00A07FBE /* Sources */,
 				D25748FE26066D2B00A07FBE /* Frameworks */,
 				D25748FF26066D2B00A07FBE /* Resources */,
+				86778E6050B372F54003703B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,12 +172,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86778E6050B372F54003703B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-9 SkillBox new version/Pods-9 SkillBox new version-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-9 SkillBox new version/Pods-9 SkillBox new version-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-9 SkillBox new version/Pods-9 SkillBox new version-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8DEC9FDDC57ABBC84DCAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-9 SkillBox new version-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D25748FD26066D2B00A07FBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D257490926066D2B00A07FBE /* ViewController.swift in Sources */,
+				D2574926260693D400A07FBE /* KeyDefualts.swift in Sources */,
 				D257490526066D2B00A07FBE /* AppDelegate.swift in Sources */,
 				D257490726066D2B00A07FBE /* SceneDelegate.swift in Sources */,
 				D257490F26066D2B00A07FBE /* __SkillBox_new_version.xcdatamodeld in Sources */,
@@ -287,6 +367,7 @@
 		};
 		D257491926066D2E00A07FBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045B62F83AABF7D416BF6BA3 /* Pods-9 SkillBox new version.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +387,7 @@
 		};
 		D257491A26066D2E00A07FBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF5B8A132263779ABBFFB19 /* Pods-9 SkillBox new version.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
