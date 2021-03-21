@@ -18,6 +18,7 @@
 		D2574926260693D400A07FBE /* KeyDefualts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2574925260693D400A07FBE /* KeyDefualts.swift */; };
 		D257492C2606A42E00A07FBE /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257492B2606A42E00A07FBE /* ToDoList.swift */; };
 		D25749302606A73100A07FBE /* ToDoList1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257492F2606A73100A07FBE /* ToDoList1TableViewController.swift */; };
+		D268E4242607B43500E8F680 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268E4232607B43500E8F680 /* CoreDataTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D2574925260693D400A07FBE /* KeyDefualts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDefualts.swift; sourceTree = "<group>"; };
 		D257492B2606A42E00A07FBE /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		D257492F2606A73100A07FBE /* ToDoList1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList1TableViewController.swift; sourceTree = "<group>"; };
+		D268E4232607B43500E8F680 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				D257490426066D2B00A07FBE /* AppDelegate.swift */,
 				D257490626066D2B00A07FBE /* SceneDelegate.swift */,
+				D268E4212607B40300E8F680 /* 3 */,
 				D25749292606A41400A07FBE /* 2 */,
 				D25749232606934A00A07FBE /* 1 */,
 				D257490A26066D2B00A07FBE /* Main.storyboard */,
@@ -109,6 +112,14 @@
 				D257492F2606A73100A07FBE /* ToDoList1TableViewController.swift */,
 			);
 			path = 2;
+			sourceTree = "<group>";
+		};
+		D268E4212607B40300E8F680 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				D268E4232607B43500E8F680 /* CoreDataTableViewController.swift */,
+			);
+			path = 3;
 			sourceTree = "<group>";
 		};
 		E38F464260722C40031B3D1E /* Frameworks */ = {
@@ -235,6 +246,7 @@
 			files = (
 				D257490926066D2B00A07FBE /* ViewController.swift in Sources */,
 				D257492C2606A42E00A07FBE /* ToDoList.swift in Sources */,
+				D268E4242607B43500E8F680 /* CoreDataTableViewController.swift in Sources */,
 				D25749302606A73100A07FBE /* ToDoList1TableViewController.swift in Sources */,
 				D2574926260693D400A07FBE /* KeyDefualts.swift in Sources */,
 				D257490526066D2B00A07FBE /* AppDelegate.swift in Sources */,
